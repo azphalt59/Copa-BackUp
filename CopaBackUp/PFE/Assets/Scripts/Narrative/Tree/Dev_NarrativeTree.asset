@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8062867119679507147
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbc9ee319f05cd84f89234939ac75584, type: 3}
+  m_Name: WaitNode
+  m_EditorClassIdentifier: 
+  State: 0
+  Active: 0
+  guid: 12f7c2de639369240bcaf5c0a61ff173
+  position: {x: 306, y: 323}
+  Duration: 1
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd2a01c1d1acfcd4bbad70dee2dd58e3, type: 3}
+  m_Name: Dev_NarrativeTree
+  m_EditorClassIdentifier: 
+  RootNode: {fileID: 0}
+  Nodes:
+  - {fileID: -8062867119679507147}
+  - {fileID: 5249160947908029571}
+  State: 0
+--- !u!114 &5249160947908029571
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c00432a44b433a347b444fdc184a24b0, type: 3}
+  m_Name: SequencerNode
+  m_EditorClassIdentifier: 
+  State: 0
+  Active: 0
+  guid: dbf0c7b600060bb4f9a56328d41d9b68
+  position: {x: 398, y: 396}
+  Childrens: []

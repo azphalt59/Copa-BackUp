@@ -1,0 +1,19 @@
+<ProjectInfo Version="1">
+  <Signature>BCD463F894363CFEAB666D73345F2B9CDF17FCDD197B31CB1AB2DADA8E8977DB</Signature>
+  <Content>
+    <Project Guid="13a03d0e-3cb9-4ecd-853b-80fb03de0dc7">
+      <DisplayName Value="Copacetic"/>
+      <DetailName Value=""/>
+      <MainProjectGuid Value="b9fb8ade-0274-4280-91d9-9997a2713c00"/>
+      <IconType Value="0"/>
+      <IdProjectIcon Value="00000000-0000-0000-0000-000000000000"/>
+      <ScmProviderGuid Value="0745c2ee-abe3-451b-934e-7f597f56c0d7"/>
+      <ScmConfiguration Value=""/>
+      <CreationTimeStamp Value="638190642417730414"/>
+      <PartitionHash Value="64459B8AC169AC6CA13A85F3D0F556D8E8458E476F73BF254268C1B53D5F083A"/>
+      <SaveFileVersion Value="56"/>
+      <ProjectType Value="0"/>
+      <IsOnlineProject Value="False"/>
+    </Project>
+  </Content>
+</ProjectInfo>

@@ -1,0 +1,16 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <Style src="project://database/Assets/Scripts/Narrative/Editor/NarrativeTreeEditor.uss?fileID=7433441132597879392&amp;guid=9843410a7a0bbaa449c55ff3ec91fc87&amp;type=3#NarrativeTreeEditor" />
+    <uie:Toolbar>
+        <uie:ToolbarMenu display-tooltip-when-elided="true" name="M_Asset" text="Assets" />
+    </uie:Toolbar>
+    <SplitView fixed-pane-initial-dimension="150">
+        <ui:VisualElement name="left-panel" style="width: 100px; max-width: none;">
+            <ui:Label text="Inspector" display-tooltip-when-elided="true" name="inspector-label" style="background-color: rgb(32, 32, 32); padding-left: 4px;" />
+            <InspectorView style="flex-grow: 1;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="right-panel" style="width: 100px; max-width: none;">
+            <ui:Label text="Narrative View" display-tooltip-when-elided="true" name="tree-label" style="background-color: rgb(32, 32, 32); margin-left: 0; padding-left: 4px;" />
+            <NarrativeTreeView focusable="true" style="flex-grow: 1;" />
+        </ui:VisualElement>
+    </SplitView>
+</ui:UXML>
